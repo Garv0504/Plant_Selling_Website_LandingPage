@@ -1,0 +1,235 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&family=Rubik+Dirt&display=swap');
+
+/* "Greenspiration, Just a Click Away" */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    /* overflow: hidden; */
+}
+
+.main{
+    width: 100%;
+}
+
+.page1{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url('AdobeStock_650212471_Preview-transformed\ \(1\).jpeg');
+    background-repeat: no-repeat;
+    background-size: contain; */
+
+}
+
+.nav{
+    display: flex;
+    position: absolute;
+    height: 10vh;
+    width: 100%;
+    padding: 40px 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    transform: translateX(-40px);
+}
+.nav-icons{
+    color: rgb(0, 120, 74);
+}
+.nav-icons i{
+    padding: 10px;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-links ul li a{
+    padding: 25px;
+    text-decoration: none;
+    color: #00784A;
+    font-family: 'Rajdhani';
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.textsection{
+    height: 50vh;
+    width: fit-content;
+    /* background-color: black; */
+    position: absolute;
+    padding-left: 50px;
+    transform: translateY(50%);
+}
+.textsection h1{
+    color: black;
+    font-family: 'Rajdhani';
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.textsection span{
+    color: #00784A;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-family: 'Slackey';
+    font-weight: 600;
+    letter-spacing: 0px;
+    text-shadow: 2px 2px 4px #666;
+}
+.textsection p{
+    font-family: 'Rajdhani';
+    color: #666;
+    padding-top: 10px;
+    font-weight: bolder;
+}
+
+.buttons{
+    padding-top: 50px;
+}
+.buttons a{
+    text-decoration: none;
+    font-family: 'Rajdhani';
+    padding: 15px;
+    background-color: #00784A;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    box-shadow: 5px 5px #888;
+    margin-right: 15px;
+}
+.search{
+    padding-top: 60px;
+
+}
+.search a{
+    border: 1px solid transparent;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-family: 'Rajdhani';
+    text-decoration: none;
+    display: flex;
+    width: 30vh;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+    box-shadow: 6px 6px #888;
+}
+.search i{
+    background-color: #00784A;
+    border-radius: 3px;
+    padding: 6px;
+}
+
+.page2{
+    width: 100%;
+    height: 100vh;
+}
+
+.page2 h1{
+    padding-top: 8vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Slackey';
+    color: #00784A;
+    font-size: xx-large;
+}
+h1 i{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    color: #7fedc3;
+}
+
+.images{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 6vh;
+}
+
+.images img{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 40px;
+    padding-bottom: 0px;
+    z-index: 999999;
+    background-color: #e2e2e299;
+}
+
+.img1,.img2,.img3,.img4,.img5{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    /* background-color: #333; */
+}
+
+.back1{
+    height: 20vh;
+    width: 90%;
+    border-radius: 20px;
+    background-color: #e2e2e299;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    z-index: -99999;
+}
+
+.back1t{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.back1t h4{
+    color: rgb(0, 120, 74);
+    font-family: 'Rajdhani';
+    font-weight: bold;
+}
+
+
+.last{
+    height: 70vh;
+    width: 100%;
+    background-color: #00784A;
+    font-family: 'Slackey';
+}
+
+.last hr{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
